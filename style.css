@@ -1,0 +1,88 @@
+body{
+    background-color: rgb(205, 233, 247);}
+    .tabineko img {
+        max-width: 400px;
+        height: 400px;
+        border: 2px solid #ccc;
+        border-radius: 8px;
+        transition: transform 0.3s, opacity 0.3s;
+      }
+      
+      .tabineko img:hover {
+        transform: scale(1.1); /* マウスオーバー時に画像を少し拡大 */
+      }
+      .tabineko{
+        position: relative;
+        width: fit-content;
+      }
+      .hover{
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        opacity: 0;
+
+      }
+      .tabineko:hover    .hover {
+        opacity: 1;
+      }
+      .tabineko:hover    .defo {
+        opacity: 0;
+      }
+
+
+      .kaburimono img {
+        max-width: 400px;
+        height: 400px;
+        border: 2px solid #ccc;
+        border-radius: 8px;
+        transition: transform 0.3s, opacity 0.3s;
+      }
+      .kaburimono img:hover {
+        transform: scale(1.1); /* マウスオーバー時に画像を少し拡大 */
+      }
+      .kaburimono{
+        position: relative;
+        width: fit-content;
+        display: block;
+      }
+      .hover{
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        opacity: 0;
+
+      }
+      .kaburimono:hover    .hover {
+        opacity: 1;
+      }
+      .kaburimono:hover    .defo {
+        opacity: 0;
+      }
+
+      .tuyukusa img {
+        max-width: 400px;
+        height: 400px;
+        border: 2px solid #ccc;
+        border-radius: 8px;
+        transition: transform 0.3s, opacity 0.3s;
+      }
+      .tuyukusa img:hover {
+        transform: scale(1.1); /* マウスオーバー時に画像を少し拡大 */
+      }
+      .tuyukusa{
+        position: relative;
+        width: fit-content;
+      }
+      .hover{
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        opacity: 0;
+
+      }
+      .tuyukusa:hover    .hover {
+        opacity: 1;
+      }
+      .tuyukusa:hover    .defo {
+        opacity: 0;
+      }
